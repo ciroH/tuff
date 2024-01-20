@@ -44,6 +44,12 @@
 	  <version>${flatlaf-version}</version>
 	</dependency>
 
+	<dependency>
+	    <groupId>net.sf.squirrel-sql.thirdparty-non-maven</groupId>
+	    <artifactId>napkinlaf</artifactId>
+	    <version>1.2</version>
+	</dependency>
+
   </dependencies>
 
 </project>
