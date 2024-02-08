@@ -5,6 +5,7 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
+import javax.swing.ScrollPaneLayout;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -28,6 +29,7 @@ public class Main extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 		this.setLocationRelativeTo(null);
+		this.setLayout(new ScrollPaneLayout());
 		this.setMinimumSize(new Dimension(600, 450));
 		this.setExtendedState(JFrame.MAXIMIZED_BOTH | JFrame.MAXIMIZED_HORIZ);
 		this.setTitle("tuff -- EARLY BUILD");
